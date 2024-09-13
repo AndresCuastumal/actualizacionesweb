@@ -1,5 +1,5 @@
 <?php 
-    require "config/conexion.php";
+    require "conexion.php";
     $accion= (isset($_POST['accion']))?$_POST['accion']:"";
     switch($accion){   
         case 'Regenerar':              
