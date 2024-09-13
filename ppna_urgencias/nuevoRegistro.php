@@ -53,7 +53,7 @@ switch($accion){
         $sql_guardar->bindValue(':PUNTAJE', $PUNTAJE);
         $sql_guardar->bindValue(':PRESTADORA', $PRESTADORA);
         $sql_guardar->execute();
-        header("Location: http://localhost:8011/consultasweb/ppna/reporte.php?doc=" . $DOC);
+        header("Location: http://204.199.120.6:8011/consultasweb/ppna/reporte.php?doc=" . $DOC);
         
     break;    
     case 'Cancelar':
@@ -185,9 +185,9 @@ switch($accion){
                                     <th scope="col">Discapacidad:
                                         <div class ="form-control">
                                             <input type="radio" name="DISCAPACIDAD" id="NO" value="NO" checked>
-                                            <label for="DISCAPACIDAD">Si</label>
-                                            <input type="radio" name="DISCAPACIDAD" id="SI" value="SI">
                                             <label for="DISCAPACIDAD">No</label>
+                                            <input type="radio" name="DISCAPACIDAD" id="SI" value="SI">
+                                            <label for="DISCAPACIDAD">Si</label>
                                         </div>
                                     </th>
                                 </tr>
