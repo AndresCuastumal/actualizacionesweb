@@ -105,7 +105,7 @@ switch($accion){
                                                 <option value="RC">RC</option>
                                                 <option value="CE">CE</option>
                                                 <option value="AS">AS</option>
-                                                <option value="NS">NS</option>
+                                                <option value="MS">MS</option>
                                             </select>
                                         </div>
                                     </th>
