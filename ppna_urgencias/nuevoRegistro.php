@@ -104,6 +104,8 @@ switch($accion){
                                                 <option value="TI">TI</option>
                                                 <option value="RC">RC</option>
                                                 <option value="CE">CE</option>
+                                                <option value="AS">AS</option>
+                                                <option value="NS">NS</option>
                                             </select>
                                         </div>
                                     </th>
