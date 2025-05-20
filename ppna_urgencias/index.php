@@ -4,6 +4,7 @@ session_start();
     session_destroy();
 
     session_start();
+    error_reporting(E_ALL ^ E_DEPRECATED);
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     include("../conexion.php"); 
